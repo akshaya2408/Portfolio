@@ -40,7 +40,7 @@ export default function About() {
           I'm an enthusiastic and self-driven Computer Science student with a strong foundation in coding and web development. I love building user-friendly applications and solving real-world problems through technology. With experience in MERN stack and Python-based tools, I continuously seek opportunities to innovate and grow. I'm passionate about learning, collaborating, and making an impact through meaningful projects.
         </p>
         {/* Resume */}
-        <a href='https://drive.google.com/file/d/16dx2mSvjoI-hCFAcFRh904OkOvkMWy-y/view?usp=sharing'
+        <a href='https://drive.google.com/file/d/1HTdfVogEHPolK2WmheUgf3BejcZZbjc1/view?usp=drivesdk'
         target='_blank'
         rel='noopener noreferrer'
         className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105'
