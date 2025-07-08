@@ -42,6 +42,8 @@ import schlLogo from './assets/education_logo/triveni.png';
 // Project Section Logo's
 import placementLogo from './assets/work_logo/placement.png';
 import studentLogo from './assets/work_logo/student.png';
+import todoLogo from './assets/work_logo/todo.png';
+
 
 
 export const SkillsInfo = [
@@ -125,8 +127,8 @@ export const SkillsInfo = [
         "A responsive placement portal for CBIT to streamline student and company interactions, featuring dashboards, placement reports, and recruiter showcases. Integrated modern UI elements with smooth navigation and social media links.",
       image: placementLogo,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/akshaya2408/CBIT-Placement-portal.git",
-      webapp: "https://raw.githack.com/akshaya2408/CBIT-Placement-portal/refs/heads/main/home.html",
+      github: "https://github.com/akshaya2408/Placement-Portal.git",
+      webapp: "https://placement-portal-xxid.onrender.com",
     },
     {
       id: 1,
@@ -137,6 +139,16 @@ export const SkillsInfo = [
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/akshaya2408/Student-Management-System.git",
       webapp: "https://student-management-system-1-rbn6.onrender.com",
+    },
+    {
+      id: 2,
+      title: "To-Do List",
+      description:
+        "A simple To-Do List web application built using HTML, CSS, and JavaScript. It allows users to add and manage their daily tasks interactively in a browser.When the Add Task button is clicked, the task is added to the list below.Clicking on a task once will toggle a “completed” style (e.g., strikethrough via CSS if implemented).Double-clicking on any task will remove it from the list entirely.",
+      image: todoLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/akshaya2408/To-Do-List.git",
+      webapp: "https://to-do-list-nu6b.onrender.com",
     },
     
   ];  
