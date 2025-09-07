@@ -95,7 +95,7 @@ export const SkillsInfo = [
       img: cbitLogo,
       school: "Chaitanya Bharathi Institute Of Technology(A),Hyderabad",
       date: "2023-present",
-      grade: "9.85 CGPA",
+      grade: "9.82 CGPA",
       desc: "I have completed my Bachelor's degree (B.E) in Computer Science And Engineering from Chaitanya Bharathi Institute Of Technology, Hyderabad. During my time at CBIT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge.",
       degree: "Bachelor of Engineering - B.E (Computer Science And Engineering)",
     },
