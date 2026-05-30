@@ -37,10 +37,10 @@ export default function About() {
         </h3>
         {/* About Me */}
         <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
-          I'm an enthusiastic and self-driven Computer Science student with a strong foundation in coding and web development. I love building user-friendly applications and solving real-world problems through technology. With experience in MERN stack and Python-based tools, I continuously seek opportunities to innovate and grow. I'm passionate about learning, collaborating, and making an impact through meaningful projects.
+          Passionate Computer Science student with expertise in Python, Machine Learning, and Full-Stack Web Development. Experienced in developing data-driven solutions and user-centric applications using the MERN stack. Driven by continuous learning and committed to creating innovative technologies that deliver meaningful impact.
         </p>
         {/* Resume */}
-        <a href='https://drive.google.com/file/d/16dx2mSvjoI-hCFAcFRh904OkOvkMWy-y/view?usp=sharing'
+        <a href='https://drive.google.com/file/d/151V5SlWmxEeinPpTETxWHkg164-Svv_M/view?usp=sharing'
         target='_blank'
         rel='noopener noreferrer'
         className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105'

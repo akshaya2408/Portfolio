@@ -42,6 +42,11 @@ import schlLogo from './assets/education_logo/triveni.png';
 // Project Section Logo's
 import placementLogo from './assets/work_logo/placement.png';
 import studentLogo from './assets/work_logo/student.png';
+import todoLogo from './assets/work_logo/todo.png';
+import loanLogo from './assets/work_logo/loan.png';
+import addictionLogo from './assets/work_logo/addiction.png';
+
+
 
 
 export const SkillsInfo = [
@@ -93,8 +98,8 @@ export const SkillsInfo = [
       img: cbitLogo,
       school: "Chaitanya Bharathi Institute Of Technology(A),Hyderabad",
       date: "2023-present",
-      grade: "9.85 CGPA",
-      desc: "I have completed my Bachelor's degree (B.E) in Computer Science And Engineering from Chaitanya Bharathi Institute Of Technology, Hyderabad. During my time at CBIT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge.",
+      grade: "9.79 CGPA",
+      desc: "I am pursuing my Bachelor's degree (B.E) in Computer Science And Engineering from Chaitanya Bharathi Institute Of Technology, Hyderabad. During my time at CBIT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge.",
       degree: "Bachelor of Engineering - B.E (Computer Science And Engineering)",
     },
     {
@@ -120,16 +125,34 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Advance Neuro Behavioural Digital Addiction Predictor",
+      description:
+        "Developed a machine learning system to predict digital addiction levels using user behavior data.Applied deep learning techniques including LSTM and DistilBERT for accurate classification.Built a Streamlit web application for real-time predictions and result visualization.",
+      image: addictionLogo,
+      tags: ["Python", "Pandas", "NumPy", "DistilBert", "SHAP", "PyTorch"],
+      github: "https://github.com/akshaya2408/Digital-Addiction-Prediction.git",
+    },
+    {
+      id: 0,
+      title: "Loan Approval Prediction System",
+      description:
+        "Developed a machine learning model to predict loan approvals by performing data preprocessing,feature engineering, and exploratory data analysis. Implemented and evaluated classification algorithms such as SVM,Decision Tree, and Random Forest, achieving 80% prediction accuracy.",
+      image: loanLogo,
+      tags: ["Python", "Pandas", "Scikit-learn","Matplotlib"],
+      github: "https://github.com/akshaya2408/Loan-Approval-Prediction-System.git",
+    },
+    {
+      id: 1,
       title: "Placement Portal",
       description:
         "A responsive placement portal for CBIT to streamline student and company interactions, featuring dashboards, placement reports, and recruiter showcases. Integrated modern UI elements with smooth navigation and social media links.",
       image: placementLogo,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/akshaya2408/CBIT-Placement-portal.git",
-      webapp: "https://raw.githack.com/akshaya2408/CBIT-Placement-portal/refs/heads/main/home.html",
+      github: "https://github.com/akshaya2408/Placement-Portal.git",
+      webapp: "https://placement-portal-xxid.onrender.com",
     },
     {
-      id: 1,
+      id: 2,
       title: "Student Management System",
       description:
         "A full-stack Student Management System using the MERN stack to manage student records with intuitive navigation, CRUD operations, and responsive UI. Includes student listing, addition, and dashboard features for efficient record management.",
@@ -137,6 +160,16 @@ export const SkillsInfo = [
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/akshaya2408/Student-Management-System.git",
       webapp: "https://student-management-system-1-rbn6.onrender.com",
+    },
+    {
+      id: 3,
+      title: "To-Do List",
+      description:
+        "A simple To-Do List web application built using HTML, CSS, and JavaScript. It allows users to add and manage their daily tasks interactively in a browser.When the Add Task button is clicked, the task is added to the list below.Clicking on a task once will toggle a “completed” style (e.g., strikethrough via CSS if implemented).Double-clicking on any task will remove it from the list entirely.",
+      image: todoLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/akshaya2408/To-Do-List.git",
+      webapp: "https://to-do-list-nu6b.onrender.com",
     },
     
   ];  
